@@ -1,0 +1,27 @@
+{
+  "name": "@simple-git/test-typescript-consumer",
+  "private": true,
+  "version": "1.0.1",
+  "jest": {
+    "roots": [
+      "<rootDir>/test/"
+    ],
+    "testMatch": [
+      "**/test/*.spec.ts"
+    ]
+  },
+  "scripts": {
+    "test": "yarn test:types && yarn test:jest",
+    "test:types": "tsc",
+    "test:jest": "jest"
+  },
+  "dependencies": {
+    "@simple-git/babel-config": "^1.0.0",
+    "simple-git": "^3.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/steveukx/git-js.git",
+    "directory": "packages/test-typescript-consumer"
+  }
+}

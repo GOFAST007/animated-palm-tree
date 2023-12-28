@@ -1,0 +1,17 @@
+{
+  "name": "@simple-git/test-es-module-consumer",
+  "private": true,
+  "version": "1.0.1",
+  "type": "module",
+  "scripts": {
+    "test": "node test.mjs"
+  },
+  "dependencies": {
+    "simple-git": "^3.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/steveukx/git-js.git",
+    "directory": "packages/test-es-module-consumer"
+  }
+}

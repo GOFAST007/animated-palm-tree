@@ -1,0 +1,5 @@
+*.md
+.changeset
+dist
+coverage
+node_modules

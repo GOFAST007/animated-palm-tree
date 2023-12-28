@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "esnext"],
+    "target": "es2015",
+    "moduleResolution": "Node",
+    "noEmit": true,
+    "composite": false,
+    "baseUrl": ".",
+    "paths": {},
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": false
+  },
+  "files": ["test/ts-default-from-root.spec.ts"]
+}
